@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+	min-height: 100vh;
+}
+
+#titulo{
+    margin-top: 10%;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#sub-titulo{
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+#escolher_comida{
+    margin-top: 40px;
+    margin-bottom: 10%;
+    width: 30%;
+    padding: 30px;
+    border-color: red;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 5%;
+    transition: 0.3s;
+}
+
+#escolher_comida:hover{
+    opacity: 70%;
+}
+
+
+ul{
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+}
+
+li::before{
+    content: '♡';
+    padding-right: 10px;
+}
+
+#title_food{
+    margin-bottom: 5%;
+}
+
+#foodImg{
+    margin-bottom: 5%;
+}
+
+#titulo_video{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+    margin-bottom: 5%;
+}
+
+#videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
